@@ -31,11 +31,11 @@ The decision to use a contract review workflow as the worked agentic example (Se
 
 **Eddy's critique I chose not to follow:** Eddy suggested splitting the core claim to soften the word "cannot" (as in "does not and cannot constitute semantic understanding"). I kept the stronger formulation because, for prompt engineering purposes, treating the limitation as structural rather than provisional is the safer design assumption. If you design your system assuming the model might develop understanding, you will under-invest in validation gates. If you design assuming it will not, you build robust systems that work regardless. This is a design-conservative choice, not a philosophical certainty.
 
-**Courses** was used to generate Bloom's Taxonomy-compliant learning outcomes that drove the chapter structure and exercises. The learning outcomes span from Explain (Searle's argument) through Evaluate (standard objections) to Create (designing diagnostic prompts and agentic architectures).
+**Courses** was used to generate Bloom's Taxonomy-compliant learning outcomes and a full Show-and-Tell lesson sequence (8 scenes following the Explain → Show → Try structure). The ShowTell output provided three measurable learning outcomes and mapped the chapter content into a scene-by-scene instructional flow that directly informed the video structure.
 
 **Figure Architect** — I requested access through my TA but did not receive it before the submission deadline. Eddy's Figure Interview mode was used as an alternative, identifying high-assertion zones and generating figure prompts for the key visual concepts (transformer attention pipeline, agentic workflow with decision nodes, counterfactual collapse causal chain).
 
-**Caze/MyCaze** — Not applicable for this chapter type (Type A — Architectural Pattern rather than a case study chapter). The chapter's worked example (contract review agent) serves the concrete-analysis function that Caze would provide for a case study chapter.
+**Caze/MyCaze** — Ran a strategic diagnostic on OpenAI to examine how the syntax-semantics limitation affects their product design, risk exposure, and competitive positioning. The diagnostic revealed that OpenAI's o-series reasoning models and tool-use architecture are compensating mechanisms for the Chinese Room limitation — they built "the room bigger" by adding windows to the outside world. The unaddressed risk: 75% of revenue comes from consumer subscriptions with zero switching costs and no structural reliability moat. The full diagnostic is in the repository as caze_openai_diagnostic.md.
 
 ---
 
