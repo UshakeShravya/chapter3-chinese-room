@@ -74,7 +74,7 @@ This repository contains the complete deliverables for Chapter 3 of Prompt Engin
 
 ## Video
 
-[YouTube/Video link here]
+[[YouTube/Video link here]](https://youtu.be/OSYJvDgayDo)
 
 ---
 
